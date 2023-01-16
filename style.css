@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.watch {
+  width: 100vw;
+  height: 100vh;
+  background-image:-webkit-linear-gradient(top right,cyan ,lightgreen);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.text {
+  font-size: 5rem;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.counter {
+  font-size: 4rem;
+  color: whitesmoke;
+  display: flex;
+
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+/* 
+.btn.start{
+  background: green;
+} */
+
+.btn {
+  font-size: 1.8rem;
+  width: 20vw;
+  height: 8vh;
+  background: transparent;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+}
+
+button:hover{
+  background: greenyellow;
+}
